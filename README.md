@@ -22,14 +22,12 @@
 ### About
 
 Final-year **B.Tech CSE (Hons.) in Big Data** student at **UPES Dehradun** (CGPA 9.12, graduating 2027).
-I work where **machine learning meets data engineering**: fine-tuning transformer models for classification, building retrieval pipelines that refuse to answer without evidence, and streaming clickstream data through Kafka and Spark.
-
-Alongside coursework I do **research internships**: AI for urban heat-island mitigation at **MNIT Jaipur** and fuzzy/statistical modelling of soil quality at **Tezpur University**.
+My domain is **Big Data** and currently I am leaning more towards working on Data Science and Engineering for Machine Learning based applications.
+Alongside coursework I have completed two **research internships**: AI for urban heat-island mitigation at **MNIT Jaipur** and fuzzy/statistical modelling of soil quality at **Tezpur University**.
 
 ```yaml
 currently:   Final year, B.Tech CSE (Big Data) @ UPES
 building:    Research Agent: a literature-review workspace for Obsidian (major project)
-research:    Closed-loop AI control for urban heat-island mitigation
 open_to:     Data / ML engineering roles, 2027 batch
 ```
 
