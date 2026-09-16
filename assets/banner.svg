@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+  <title id="t">Brishav Debnath</title>
+  <desc id="d">B.Tech CSE (Big Data) at UPES. Machine learning, NLP and streaming data pipelines.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#2A3038"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#111418" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#111418" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#111418" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" x2="1">
+      <stop offset="0" stop-color="#F2A93B" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#F2A93B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F2A93B" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" x2="1">
+      <stop offset="0" stop-color="#4FC1B0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4FC1B0" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#4FC1B0" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="14" fill="#111418"/>
+  <rect width="1200" height="260" rx="14" fill="url(#dots)"/>
+
+  <!-- data streams: right side -->
+  <g fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M740 60 C 820 60, 840 130, 900 130 S 1100 90, 1200 90" stroke="url(#amber)"/>
+    <path d="M760 110 C 840 110, 860 170, 920 170 S 1110 140, 1200 140" stroke="url(#teal)"/>
+    <path d="M780 210 C 860 210, 880 150, 960 150 S 1120 200, 1200 200" stroke="url(#amber)" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <circle cx="900" cy="130" r="5" fill="#F2A93B"/>
+    <circle cx="920" cy="170" r="5" fill="#4FC1B0"/>
+    <circle cx="960" cy="150" r="5" fill="#F2A93B" fill-opacity="0.7"/>
+    <circle cx="1060" cy="104" r="3.5" fill="#E8E6E1" fill-opacity="0.6"/>
+    <circle cx="1080" cy="150" r="3.5" fill="#E8E6E1" fill-opacity="0.6"/>
+    <circle cx="1100" cy="196" r="3.5" fill="#E8E6E1" fill-opacity="0.6"/>
+  </g>
+  <rect width="1200" height="260" rx="14" fill="url(#fade)"/>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="64" y="84" fill="#F2A93B" font-size="15" font-weight="600" letter-spacing="3">BIG DATA · MACHINE LEARNING · RESEARCH</text>
+    <text x="62" y="148" fill="#F4F2EE" font-size="60" font-weight="700" letter-spacing="-1">Brishav Debnath</text>
+    <text x="64" y="192" fill="#A9AFB7" font-size="21">B.Tech CSE (Hons.) in Big Data · UPES Dehradun · Class of 2027</text>
+  </g>
+  <rect x="64" y="212" width="56" height="4" rx="2" fill="#F2A93B"/>
+</svg>
