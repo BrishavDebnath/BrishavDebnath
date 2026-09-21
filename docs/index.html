@@ -231,20 +231,20 @@
 
         <article class="card">
           <div class="kicker">Apr – May 2026 · Streaming</div>
-          <h3>Real-Time E-Commerce Recommendations</h3>
-          <p>A streaming pipeline that turns clickstream events into trending products and product recommendations as they happen.</p>
+          <h3>Streaming Product Affinity Pipeline</h3>
+          <p>Finds products that shoppers view together in the same visit, as the clicks stream in. Kafka feeds Spark Structured Streaming, which writes to MongoDB, and FastAPI serves the results.</p>
           <div class="metrics">
-            <span class="metric">Kafka → Spark</span>
-            <span class="metric">checkpointed</span>
-            <span class="metric">Docker Compose</span>
+            <span class="metric">19.7% hit-rate@10</span>
+            <span class="metric">26.9x baseline</span>
+            <span class="metric">15,000 events/s</span>
           </div>
           <ul>
-            <li>Spark Structured Streaming with checkpointing for reliability</li>
-            <li>FastAPI + MongoDB serving layer</li>
-            <li>Streamlit dashboard for live results</li>
+            <li>Tested on 2.7M real RetailRocket events, against a bestseller baseline</li>
+            <li>Every event counted exactly once after Spark is killed mid-stream</li>
+            <li>128 tests and CI, and the whole stack starts with one docker compose up</li>
           </ul>
-          <div class="tags"><span class="tag">Kafka</span><span class="tag">Spark</span><span class="tag">FastAPI</span><span class="tag">MongoDB</span><span class="tag">Streamlit</span></div>
-          <span class="soon">Repository coming soon</span>
+          <div class="tags"><span class="tag">Kafka</span><span class="tag">Spark</span><span class="tag">MongoDB</span><span class="tag">FastAPI</span><span class="tag">Docker</span></div>
+          <a class="link" href="https://github.com/BrishavDebnath/streaming-product-affinity" target="_blank" rel="noopener">View on GitHub ↗</a>
         </article>
 
         <article class="card">

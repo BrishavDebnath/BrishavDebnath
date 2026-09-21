@@ -52,15 +52,14 @@ Retrieval-augmented misinformation detection. Labels a health claim **supported*
 </td>
 <td width="50%" valign="top">
 
-#### 🛒 Real-Time E-Commerce Recommendations <sub>· repo coming soon</sub>
-Streaming pipeline that turns clickstream events into trending products and co-occurrence recommendations.
+#### 🛒 [Streaming Product Affinity Pipeline](https://github.com/BrishavDebnath/streaming-product-affinity) <sub>· [v1.0.0](https://github.com/BrishavDebnath/streaming-product-affinity/releases/tag/v1.0.0)</sub>
+Finds products that shoppers view together in the same visit, as the clicks stream in. Kafka feeds Spark Structured Streaming, which writes to MongoDB, and FastAPI serves the results.
 
-- Kafka → Spark Structured Streaming with checkpointing
-- Results served through FastAPI + MongoDB
-- Streamlit dashboard
-- Whole stack runs with Docker Compose
+- Tested on 2.7M real RetailRocket events: **19.7%** hit-rate@10, **26.9x** a bestseller baseline
+- **15,000 events/s** sustained on a laptop, and every event counted exactly once after a crash
+- 128 tests, CI, CodeQL, and the whole stack starts with one `docker compose up`
 
-`Kafka` `Spark` `FastAPI` `MongoDB` `Docker`
+`Kafka` `Spark` `MongoDB` `FastAPI` `Docker`
 
 </td>
 </tr>
