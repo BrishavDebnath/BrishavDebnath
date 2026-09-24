@@ -234,12 +234,12 @@
           <h3>Streaming Product Affinity Pipeline</h3>
           <p>Finds products that shoppers view together in the same visit, as the clicks stream in. Kafka feeds Spark Structured Streaming, which writes to MongoDB, and FastAPI serves the results.</p>
           <div class="metrics">
-            <span class="metric">19.7% hit-rate@10</span>
-            <span class="metric">26.9x baseline</span>
+            <span class="metric">26.2% hit-rate@10</span>
+            <span class="metric">+5.4 pts vs category baseline</span>
             <span class="metric">15,000 events/s</span>
           </div>
           <ul>
-            <li>Tested on 2.7M real RetailRocket events, against a bestseller baseline</li>
+            <li>Tested on 2.7M real RetailRocket events, against a category-bestseller baseline</li>
             <li>Every event counted exactly once after Spark is killed mid-stream</li>
             <li>128 tests and CI, and the whole stack starts with one docker compose up</li>
           </ul>
